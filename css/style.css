@@ -1,7 +1,7 @@
-body {
+body, html {
     background-color: black;
-    margin-left: 3rem;
-    margin-right: 3rem;
+    margin-left: 1rem;
+    margin-right: 1rem;
 
     font-size: 1.2rem;
     font-family:Verdana, Geneva, Tahoma, sans-serif
@@ -28,7 +28,7 @@ body {
     margin-top: 10rem;
     opacity: 100%;
 flex:1;
-background-color: rgba(0, 0, 0, 0.459);
+background-color: rgba(61, 61, 61, 0.74);
 display: flex;
 align-items: center;
 justify-content: center;
@@ -127,7 +127,7 @@ form input {
     }
 }
 
-@media (min-width: 1028px) {
+@media (min-width: 1280px) {
     .main-wrapper{
         flex-direction: row;
     }
